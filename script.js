@@ -47,7 +47,7 @@ var init = function () {
         ctx.fillRect(0, 0, width, height);
     });
 
-    var traceCount = mobile ? 20 : 50;
+    var traceCount = mobile ? 100 : 150;
     var pointsOrigin = [];
     var i;
     var dr = mobile ? 0.3 : 0.1;
